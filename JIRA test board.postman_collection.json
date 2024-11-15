@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "97499510-94df-4451-a5e0-2e3b6d7a4932",
+		"name": "JIRA test board",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38523017"
+	},
+	"item": [
+		{
+			"name": "jira get requests from jira service desk",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "mohamadhashem@live.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ATATT3xFfGF0yGy-BsKiJnWJMpHIJ5pUpk0AR2q6FgpCGW5rR7GAx9foGLeI2aj3MID47ksFBMkZDw_QB4wlU0knRg6mCUOcbxkrkyq8Y3fcnWZ8OV9Whn2tCLEWBwZX8HogUNfWdEWuTCUQ97kV1YcpwS0mSziRoSPMiDDcoTLmCrGF7HcL8m8=FA71D31C",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mohamadhashem.atlassian.net/rest/servicedeskapi/request",
+					"protocol": "https",
+					"host": [
+						"mohamadhashem",
+						"atlassian",
+						"net"
+					],
+					"path": [
+						"rest",
+						"servicedeskapi",
+						"request"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create a request on jira service desk",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "mohamadhashem@live.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ATATT3xFfGF0yGy-BsKiJnWJMpHIJ5pUpk0AR2q6FgpCGW5rR7GAx9foGLeI2aj3MID47ksFBMkZDw_QB4wlU0knRg6mCUOcbxkrkyq8Y3fcnWZ8OV9Whn2tCLEWBwZX8HogUNfWdEWuTCUQ97kV1YcpwS0mSziRoSPMiDDcoTLmCrGF7HcL8m8=FA71D31C",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"serviceDeskId\": \"1\",  \r\n  \"requestTypeId\": \"13\", \r\n  \"raiseOnBehalfOf\": \"mohamadhashem@live.com\", \r\n  \"requestFieldValues\": {\r\n    \"summary\": \"test create request jsd\",\r\n    \"description\": \"test create request\"\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mohamadhashem.atlassian.net/rest/servicedeskapi/request",
+					"protocol": "https",
+					"host": [
+						"mohamadhashem",
+						"atlassian",
+						"net"
+					],
+					"path": [
+						"rest",
+						"servicedeskapi",
+						"request"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update a request on jira service desk",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "mohamadhashem@live.com",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "ATATT3xFfGF0yGy-BsKiJnWJMpHIJ5pUpk0AR2q6FgpCGW5rR7GAx9foGLeI2aj3MID47ksFBMkZDw_QB4wlU0knRg6mCUOcbxkrkyq8Y3fcnWZ8OV9Whn2tCLEWBwZX8HogUNfWdEWuTCUQ97kV1YcpwS0mSziRoSPMiDDcoTLmCrGF7HcL8m8=FA71D31C",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"fields\": {\r\n    \"summary\": \"Updated summary of the request 3\",\r\n    \"description\": \"Updated description of the request2\"\r\n  }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mohamadhashem.atlassian.net/rest/api/2/issue/SUP-6",
+					"protocol": "https",
+					"host": [
+						"mohamadhashem",
+						"atlassian",
+						"net"
+					],
+					"path": [
+						"rest",
+						"api",
+						"2",
+						"issue",
+						"SUP-6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
