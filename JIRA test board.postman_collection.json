@@ -19,12 +19,8 @@
 							"key": "username",
 							"value": "mohamadhashem@live.com",
 							"type": "string"
-						},
-						{
-							"key": "password",
-							"value": "ATATT3xFfGF0yGy-BsKiJnWJMpHIJ5pUpk0AR2q6FgpCGW5rR7GAx9foGLeI2aj3MID47ksFBMkZDw_QB4wlU0knRg6mCUOcbxkrkyq8Y3fcnWZ8OV9Whn2tCLEWBwZX8HogUNfWdEWuTCUQ97kV1YcpwS0mSziRoSPMiDDcoTLmCrGF7HcL8m8=FA71D31C",
-							"type": "string"
 						}
+						
 					]
 				},
 				"method": "GET",
@@ -64,11 +60,6 @@
 						{
 							"key": "username",
 							"value": "mohamadhashem@live.com",
-							"type": "string"
-						},
-						{
-							"key": "password",
-							"value": "ATATT3xFfGF0yGy-BsKiJnWJMpHIJ5pUpk0AR2q6FgpCGW5rR7GAx9foGLeI2aj3MID47ksFBMkZDw_QB4wlU0knRg6mCUOcbxkrkyq8Y3fcnWZ8OV9Whn2tCLEWBwZX8HogUNfWdEWuTCUQ97kV1YcpwS0mSziRoSPMiDDcoTLmCrGF7HcL8m8=FA71D31C",
 							"type": "string"
 						}
 					]
@@ -116,11 +107,6 @@
 						{
 							"key": "username",
 							"value": "mohamadhashem@live.com",
-							"type": "string"
-						},
-						{
-							"key": "password",
-							"value": "ATATT3xFfGF0yGy-BsKiJnWJMpHIJ5pUpk0AR2q6FgpCGW5rR7GAx9foGLeI2aj3MID47ksFBMkZDw_QB4wlU0knRg6mCUOcbxkrkyq8Y3fcnWZ8OV9Whn2tCLEWBwZX8HogUNfWdEWuTCUQ97kV1YcpwS0mSziRoSPMiDDcoTLmCrGF7HcL8m8=FA71D31C",
 							"type": "string"
 						}
 					]
